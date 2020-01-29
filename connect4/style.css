@@ -1,0 +1,81 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(110deg, #83b4b1 60%, #73d6dd 60%);
+}
+#connect4 td {
+    border: 2px solid black;
+    background-color: rgb(19, 82, 175);
+    border-radius: 50%;
+    width: 80px;
+    height:80px;
+    transition: background-color 0.3s ease;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#connect4 {
+  margin-left: auto;
+padding: 75px;
+  margin-right: auto;
+  text-align: center
+}
+
+#connect4 td.red{
+  background-color: red;
+}
+
+#connect4 td.yellow {
+  background-color: yellow;
+  
+}
+header {
+  background:rgb(8, 6, 6);
+  padding: 5px;
+}
+
+header > h1 {
+  color: rgb(255, 255, 255);
+  text-align:center;
+  font-weight: bold;
+  font-size:3em;
+}
+#player1.show{
+  border: 2px solid black;
+  font-size: 3.5em;
+  width: 30%;
+  height: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: rgb(236, 142, 142);
+  padding: 5px;
+}
+#player1 {
+  text-align: center;
+  font-weight: bolder;
+  overflow: hidden;
+  height:0;
+}
+
+#player2.show{
+  border: 2px solid black;
+  font-size: 3.5em;
+  width: 30%;
+  height: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: yellow;
+  padding: 5px;
+}
+#player2 {
+  text-align: center;
+  font-weight: bolder;
+  overflow: hidden;
+  height:0;
+}
